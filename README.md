@@ -1,7 +1,7 @@
 <h1>Diabetes Prediction WebApp</h1>
 
 <h2>Description</h2>
-This project aims at predicting if the user is diabetic or not in real time using a webapp.
+This project aims at predicting if the user is diabetic or not in real time. I is hosted on a website using Flask and AWS.
 <br />
 
 
