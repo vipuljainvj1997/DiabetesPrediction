@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <head>
+            <title>
+                Diabetes prediction webapp!
+            </title>
+            <h1>
+                Welcome to Diabetes prediction webapp!
+            </h1>
+            <p>
+                Enter below fields and press submit to know if you have high sugar intake or not!
+            </p>
+            <form method="post" action="/submit">
+                <input type = "number" name = "preg" placeholder="enter number of times pregnanant" required style="width: 250px;">
+                <input type = "number" name = "plas" placeholder="enter glucose concentration" required style="width: 250px;">
+                <input type = "number" name = "pres" placeholder="enter Diastolic blood pressure(mm hg)" required style="width: 250px;">
+                <input type = "number" name = "skin" placeholder="enter skin thickness (mm)" required style="width: 250px;">
+                <input type = "number" name = "test" placeholder="enter insulin (muU/ml)" required style="width: 250px;">
+                <input type = "number" name = "mass" placeholder="enter BMI" required step="any" style="width: 250px;">
+                <input type = "number" name = "pedi" placeholder="enter Diabetes pedigree function" required step="any" style="width: 250px;">
+                <input type = "number" name = "age" placeholder="enter Age" required step="any" style="width: 250px;">
+                
+                <button>submit</button>
+            </form>   
+        </head>
+        
+    </body>
+</html>
